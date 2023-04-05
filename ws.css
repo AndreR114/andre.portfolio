@@ -5,6 +5,11 @@
 html {
 
     font-family: sans-serif;
+    background-image: linear-gradient(
+    to top left,
+    rgba(248, 157, 134, 0.836),
+    rgba(172, 64, 15, 0.808)
+  );
 }
 
 *{
@@ -16,7 +21,6 @@ box-sizing: border-box;
 body {
     position: relative;
     height: 120vh;
-    background-image: -moz-linear-gradient(to top left, rgb(63, 17, 52), rgba(102, 6, 86, 0.856));
     fill-opacity: 1;
     backdrop-filter: blur(200px);
     filter: blur();
