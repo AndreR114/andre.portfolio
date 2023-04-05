@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Wüfelspiel</title>
-    <link rel="stylesheet" type="text/css" href="ws.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="ws.css" />
+  </head>
 
-<body>
-    
-     <nav class="navigationBar">
+  <body>
+    <nav class="navigationBar">
       <div class="container desktop">
         <div class="row">
           <div class="col-6">
@@ -17,10 +15,10 @@
               >Hier entsteht ein Logo</a
             >
             <ul>
-              <li class="active">
+              <li >
                 <a href="index.html" title="zurück zur Hauptseit">Startseite</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="meineProjekt.html" title="gehe zu Meine Projekte"
                   >Meine Projekte</a
                 >
@@ -32,47 +30,41 @@
         </div>
       </div>
     </nav>
-    
-     <a href="regeln.html" id="rule">Spielregeln</a>
-    
-    <!--Creating the player00 divs with the currentbox inside-->
-    <div class="player player00 active">
-        <h1 class="playerText">Player 1</h1>
-        <p class="playerPointtext" id="playerPoints0">0</p>
-        <div class="current">
-            <h2 class="currentText">Current</h2>
-            <p id="currentPointsP0">0</p>
-        </div>
+
+    <a href="regeln.html" id="rule">Spielregeln</a>
+
+    <div class="player player0 playerActive">
+      <h1 class="playerText">Player</h1>
+      <p class="punkteText0">0</p>
+      <div class="current playerActive">
+        <h2 class="currentText">Current</h2>
+        <span><p class="currentPunkteP0">0</p></span>
+      </div>
     </div>
 
-    <!--putting in the dice as an image-->
-
-    <img class="dice" src="dice-5.png" alt="Dice number 5">
-
-    <!--Creating the player01 divs with the currentbox inside-->
-    <div class="player player01 ">
-        <h1 class="playerText">Player 2</h1>
-        <p class="playerPointtext" id="playerPoints1">0</p>
-        <div class="current">
-            <h2 class="currentText">Current</h2>
-            <p id="currentPointsP1">0</p>
-        </div>
+    <div class="player player1">
+      <h1 class="playerText">Player</h1>
+      <p class="punkteText1">0</p>
+      <div class="current">
+        <h2 class="currentText">Current</h2>
+        <span><p class="currentPunkteP1">0</p></span>
+      </div>
     </div>
 
-    <!--Creating all the buttons needed-->
+    <!--Buttons-->
 
-    <button class="btnStyle" id="reset">🔄 New Game</button>
-    <button class="btnStyle" id="roll">🎲 Roll</button>
-    <button class="btnStyle" id="hold">📥 Hold</button>
+    <button class="btnStyle" id="newGame">🔄New Game</button>
+    <button class="btnStyle" id="roll">🎲Roll dice</button>
+    <button class="btnStyle" id="hold">📥Hold points</button>
 
+    <!--Würfel einfügen-->
 
-<div class="signature">
+    <img id="dice" src="dice-5.png" alt="Würfel" />
+
+    <div class="signature">
       <p>Erstellt von Andre R.</p>
     </div>
+  </body>
 
-
-</body>
-
-<script src="ws.js"></script>
-
+  <script src="script.js"></script>
 </html>
