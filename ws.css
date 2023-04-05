@@ -42,8 +42,8 @@ body {
 
 .btnStyle {
 
-    width: 190px;
-    height: 60px;
+    width: 180px;
+    height: 70px;
     border-radius: 25px;
     border: none;
     background-color: #ffffff83;
@@ -73,12 +73,12 @@ body {
 }
 
 .btnStyle:hover {
-    color: red;
-    background-color: #1bbd1ba4;
-    font-weight: 700;
-    width: 195px;
-    height: 65px;
-    font-size: 1.2;
+  font-size: 1.2rem;
+  color: red;
+  background-color: rgba(115, 216, 57, 0.856);
+  font-weight: bold;
+  left: 841.5px;
+  transition: all 0.2s;
 }
 
 
@@ -165,17 +165,17 @@ body {
 
 #reset {
     height: 80;
-    left: 877px;
+    left: 862px;
     top: 300px;
 }
 
 #roll {
-    left: 877px;
+    left: 862px;
     top: 610px;
 }
 
 #hold {
-    left: 877px;
+    left: 862px;
     top: 680px;
 }
 
