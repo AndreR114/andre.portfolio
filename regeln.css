@@ -1,0 +1,70 @@
+/*==========Global Settings=======================*/
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to top left,
+    rgba(248, 157, 134, 0.836),
+    rgba(172, 64, 15, 0.808)
+  );
+}
+
+body {
+  position: relative;
+  height: 120vh;
+  backdrop-filter: blur(200px);
+  filter: blur();
+}
+
+/*============================Link Button style==================*/
+
+.rules {
+  position: absolute;
+  text-align: center;
+}
+
+#rule {
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff6e;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.418);
+  position: absolute;
+  left: 861.5px;
+  top: 60px;
+}
+
+#rule:hover {
+  font-size: 1.2rem;
+  color: red;
+  background-color: rgba(115, 216, 57, 0.856);
+  font-weight: bold;
+  left: 841.5px;
+  transition: all 0.2s;
+}
+
+/*=============================Beschreibung der Regeln=====================*/
+
+.regelBeschreibung {
+  display: inline-block;
+  position: absolute;
+  height: 550px;
+  width: 600px;
+  background-color: rgba(26, 166, 209, 0.733);
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.438);
+  text-align: center;
+  font-weight: bold;
+  margin-top: 170px;
+  left: 623.5px;
+  font-size: 1.3rem;
+}
+
+#emoji {
+  font-size: 2rem;
+}
