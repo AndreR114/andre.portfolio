@@ -235,3 +235,52 @@ body {
   transition: all 0.2s;
   left: 880px;
 }
+
+/*===================NAVIGATIONSLEISTE====================*/
+
+.navigationBar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(95, 95, 95);
+  position: relative;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigationBar ul > li > a {
+  display: inline-block;
+  color: #fff;
+  padding: 15px;
+}
+
+.navigationBar ul > li {
+  display: inline-block;
+  height: 100%;
+  padding: 0 0.3rem 0 0.3rem;
+}
+
+.navigationBar ul {
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  float: right;
+  height: 100%;
+}
+
+.logo-Link {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navigationBar ul > li > a:link {
+  text-decoration: none;
+  height: 20px;
+}
+
+.navigationBar ul > li > a:active {
+  background-color: darkred;
+}
+
+.navigationBar ul > li :hover {
+  background-color: darkred;
+}
