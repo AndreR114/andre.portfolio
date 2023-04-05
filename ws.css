@@ -236,14 +236,14 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .player {
-    left: 307.5px;
+    left: 207.5px;
     top: -80px;
     height: 300px;
     width: 200px;
   }
 
   .player1 {
-    left: 507.5px;
+    left: 407.5px;
   }
 
   .current {
@@ -303,17 +303,17 @@ body {
   }
 
   .newGame {
-    left: 462px;
+    left: 362px;
     top: 180px;
   }
 
   .roll {
-    left: 462px;
+    left: 362px;
     top: 290px;
   }
 
   .hold {
-    left: 462px;
+    left: 362px;
     top: 350px;
   }
 
@@ -326,7 +326,7 @@ body {
     border: none;
     box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.418);
     position: absolute;
-    left: 450px;
+    left: 350px;
     top: 55px;
   }
 
@@ -354,7 +354,7 @@ body {
     position: absolute;
     height: 50px;
     width: 50px;
-    left: 482.5px;
+    left: 382.5px;
     top: 230px;
   }
 }
