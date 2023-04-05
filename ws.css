@@ -1,0 +1,190 @@
+/*=============================Global Settings==========================*/
+
+/*Set the boxsizing and fontfamily in the HTML*/
+
+html {
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*set the color and size of the body*/
+
+body {
+    position: relative;
+    height: 100vh;
+    background-image: -moz-linear-gradient(to top left, rgb(63, 17, 52), rgba(102, 6, 86, 0.856));
+    fill-opacity: 1;
+    backdrop-filter: blur(200px);
+    filter: blur();
+    overflow: hidden;
+}
+
+.dice {
+    position: absolute;
+    z-index: 5;
+    height: 100px;
+    width: 100px;
+    left: 902px;
+    top: 420px;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+    transform: rotateX('360')
+}
+
+/*Global button setting*/
+
+.btnStyle {
+
+    width: 190px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff83;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+
+
+}
+
+.btn:active {
+    transform: translate(-50%, 3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btnStyle::first-letter {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.btnStyle:hover {
+    color: red;
+    background-color: #1bbd1ba4;
+    font-weight: 700;
+    width: 195px;
+    height: 65px;
+    font-size: 1.2;
+}
+
+
+
+
+
+/*=============================Styling and Positioning of Player Divs and the Current point boxes inside the Divs in generar, befor the active class==================*/
+
+
+.player {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(142, 22, 153);
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 452px;
+    margin-right: -4px;
+    border: none;
+    text-align: center;
+    transition: all 1.5s;
+
+}
+
+.playerText {
+    letter-spacing: 1px;
+    margin-top: 120px;
+    font-size: 3rem;
+}
+
+.playerPointtext {
+
+    color: red;
+    font-size: 3rem;
+}
+
+.player00 {
+    border-radius: 20px 0 0 20px;
+    box-shadow: 5px 5px 5px rgba(10, 2, 24, 0.185);
+}
+
+.player01 {
+    border-radius: 0 20px 20px 0;
+    box-shadow: 5px 5px 5px rgba(24, 2, 2, 0.185);
+}
+
+/*===creating the active class and changing needed divs===*/
+
+.active {
+    background-color: rgb(201, 45, 188);
+    font-weight: bold;
+
+}
+
+.active .currentText>h2 {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.active .current>p {
+    font-size: 1.3rem;
+}
+
+
+
+/*styling the current divs and text*/
+
+.current {
+
+    height: 100px;
+    width: 200px;
+    background-color: rgb(143, 27, 27);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+    bottom: 80px;
+    left: 150px;
+    font-size: 1rem;
+}
+
+
+/*positioning the buttons*/
+
+#reset {
+    height: 80;
+    left: 877px;
+    top: 300px;
+}
+
+#roll {
+    left: 877px;
+    top: 610px;
+}
+
+#hold {
+    left: 877px;
+    top: 680px;
+}
+
+.playerWinner {
+    background-color: rgba(27, 25, 25, 0.856);
+    transition: all 0.75s;
+
+}
+
+.playerWinner .playerText {
+    font-weight: 600;
+    color: red;
+    transition: all 0.75s;
+
+}
+
+.hidden {
+    display: none;
+}
