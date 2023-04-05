@@ -251,7 +251,7 @@ body {
 .navigationBar ul > li > a {
   display: inline-block;
   color: #fff;
-  padding: 0;
+  padding: 20px;
 }
 
 .navigationBar ul > li {
@@ -275,7 +275,7 @@ body {
 
 .navigationBar ul > li > a:link {
   text-decoration: none;
-  height: 20px;
+  height: 40px;
 }
 
 .navigationBar ul > li > a:active {
