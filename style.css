@@ -55,8 +55,13 @@ body {
 /*=======================Styling Infotext============================*/
 
 #Kopfzeile {
-    font-size: 4rem;
-    color: rgba(0, 255, 234, 0.705);
+  font-size: 4rem;
+  color: rgba(0, 255, 234, 0.705);
+  margin-left: 20px;
+}
+
+#TextBeschreibung {
+  margin-left: 20px;
 }
 
 
