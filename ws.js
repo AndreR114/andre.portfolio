@@ -17,7 +17,7 @@ const currentElement0 = document.querySelector("#currentPointsP0");
 
 /*Selecting the dice and create a dice point container*/
 
-const diceElement = document.querySelector(".dice");
+const diceElement = document.querySelector("#dice");
 let currentPoints = 0;
 let scores = [0, 0];
 
