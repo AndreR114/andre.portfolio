@@ -38,7 +38,7 @@ const switchPlayer = function () {
 
 //Savecontainer for the pointerEvents
 
-let scores = [0, 0];
+let score = [0, 0];
 
 //Handle clickelements
 
@@ -46,7 +46,7 @@ btnNewGameElement.addEventListener("click", function () {
   //Reset the game
   gameStarted = true;
   currentPoints = 0;
-  scores = [0, 0];
+  score = [0, 0];
   playerPunkteElement0.textContent = 0;
   playerPunkteElement1.textContent = 0;
   playerCurrent0.textContent = currentPoints;
