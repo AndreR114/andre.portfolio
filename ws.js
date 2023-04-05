@@ -8,9 +8,9 @@ const score1Element = document.getElementById("playerPoints1");
 const activePlayer0 = document.querySelector(".player00");
 const activePlayer1 = document.querySelector(".player01");
 
-const btnRoll = document.querySelector("#roll");
-const btnHold = document.querySelector("#hold");
-const btnReset = document.querySelector("#reset");
+const btnRoll = document.querySelector(".roll");
+const btnHold = document.querySelector(".hold");
+const btnReset = document.querySelector(".reset");
 
 const currentElement1 = document.querySelector("#currentPointsP1");
 const currentElement0 = document.querySelector("#currentPointsP0");
