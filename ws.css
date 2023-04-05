@@ -251,7 +251,7 @@ body {
 .navigationBar ul > li > a {
   display: inline-block;
   color: #fff;
-  padding: 15px;
+  padding: 0;
 }
 
 .navigationBar ul > li {
