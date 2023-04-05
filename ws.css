@@ -25,6 +25,7 @@ body {
     backdrop-filter: blur(200px);
     filter: blur();
     overflow: hidden;
+    margin:0;
 }
 
 .dice {
