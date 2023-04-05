@@ -236,7 +236,7 @@ body {
 
 /*=============================MEDIA QUERRIES=============================*/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1600px) {
   .player {
     left: 307.5px;
     top: -80px;
