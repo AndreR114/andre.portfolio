@@ -278,16 +278,12 @@ body {
   }
 
   .btnStyle {
-    display: active;
+    
     font-size: 1rem;
     height: 35px;
     width: 90px;
-    background-color: #ffffff6e;
     border-radius: 15px;
-    border: none;
-    display: inline-block;
-    position: absolute;
-    cursor: pointer;
+ 
   }
   .mobilebtn {
     display: none;
