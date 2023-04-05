@@ -1,3 +1,5 @@
+/*==========Global Settings=======================*/
+
 html {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -236,14 +238,14 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .player {
-    left: 207.5px;
+    left: 307.5px;
     top: -80px;
     height: 300px;
     width: 200px;
   }
 
   .player1 {
-    left: 407.5px;
+    left: 507.5px;
   }
 
   .current {
@@ -303,17 +305,17 @@ body {
   }
 
   .newGame {
-    left: 362px;
+    left: 462px;
     top: 180px;
   }
 
   .roll {
-    left: 362px;
+    left: 462px;
     top: 290px;
   }
 
   .hold {
-    left: 362px;
+    left: 462px;
     top: 350px;
   }
 
@@ -326,7 +328,7 @@ body {
     border: none;
     box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.418);
     position: absolute;
-    left: 350px;
+    left: 450px;
     top: 55px;
   }
 
@@ -346,7 +348,7 @@ body {
     height: 50px;
     font-weight: bold;
     position: absolute;
-    left: 700px;
+    left: 800px;
     top: 400px;
   }
 
@@ -354,7 +356,7 @@ body {
     position: absolute;
     height: 50px;
     width: 50px;
-    left: 382.5px;
+    left: 482.5px;
     top: 230px;
   }
 }
