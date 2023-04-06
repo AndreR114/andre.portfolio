@@ -34,6 +34,86 @@ body {
   padding: 15px;
 }
 
+/*====================MEDIA QUERRIES=============================*/
+@media (max-width: 1720px) {
+  .container a > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .container > h2 {
+    margin-top: 20px;
+  }
+
+  .Leistungen-Bereich {
+    padding-top: 1rem;
+  }
+
+  .Leistung-Box {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    padding: 1rem 1rem 1rem;
+    width: 20%;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .container a > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .container > h2 {
+    margin-top: 20px;
+  }
+
+  .Leistungen-Bereich {
+    padding-top: 1rem;
+  }
+
+  .Leistung-Box {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    padding: 1rem 1rem 1rem;
+    width: 20%;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .container a > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .container > h2 {
+    margin-top: 20px;
+  }
+
+  .Leistungen-Bereich {
+    padding-top: 1rem;
+  }
+
+  .Leistung-Box {
+    background-color: gray;
+    text-align: center;
+    color: black;
+    padding: 1rem 1rem 1rem;
+    width: 50%;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .navigationBar ul > li > a {
+    display: none;
+  }
+}
+
+
 .navigationBar ul > li {
   display: inline-block;
   height: 100%;
