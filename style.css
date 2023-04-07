@@ -188,6 +188,13 @@ body {
     font-size: 2rem;
 }
 
+.Leistung-Box>p {
+
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+}
+
 @media (max-width: 540px) {
   .container a > img {
     height: 100px;
