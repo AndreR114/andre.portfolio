@@ -17,21 +17,99 @@ body {
     box-sizing: border-box;
 }
 
-/*======================Styling Navigationsbar===========================*/
+/*====================Globale Stylings====================*/
 
-.navigationBar {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(95, 95, 95);
-  position: relative;
-  font-weight: bold;
-  font-size: 1.1rem;
+html {
+    font-size: 16px;
 }
 
-.navigationBar ul > li > a {
-  display: inline-block;
-  color: #fff;
-  padding: 15px;
+body {
+    height: 120vh;
+    background-image: linear-gradient(to top left,
+            rgba(255, 136, 0, 0.596),
+            rgba(172, 126, 0, 0.849));
+    font-family: sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+
+    content: "";
+    display: block;
+    clear: boths;
+}
+
+/*======================Styling Navigationsbar===========================*/
+
+.navBar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(78, 74, 74);
+    position: relative;
+}
+
+.navBar>a>img {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+
+
+
+.navBar>ul>li {
+    display: inline-block;
+    height: 100%;
+    padding: 0 .4rem 0 .4rem;
+
+}
+
+.navBar>ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+.navBar>ul>li>a {
+
+    display: inline-block;
+    margin-top: 0.8rem;
+}
+
+
+
+.navBar>ul>li>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navBar>ul>li>a:active {
+    color: red;
+    text-decoration: none;
+}
+
+.navBar>ul>li>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar>ul>li>a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(187, 20, 20);
 }
 
 /*====================MEDIA QUERRIES=============================*/
