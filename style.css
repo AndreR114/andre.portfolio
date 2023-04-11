@@ -133,5 +133,15 @@ body {
   .header-banner > img {
     width: auto;
   }
+
+  #Kopfzeile {
+    top: 6rem;
+    right: 20%;
+  }
+
+  #TextBeschreibung {
+    margin-left: 180px;
+    text-align: center;
+  }
 }
 
