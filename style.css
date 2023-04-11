@@ -111,7 +111,36 @@ body {
 .active {
     background-color: rgb(187, 20, 20);
 }
+/*=======================Styling Banner==============================*/
 
+.header-banner > img {
+  display: inline-block;
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+
+/*=======================Styling Infotext============================*/
+
+#Kopfzeile {
+  font-size: 4rem;
+  color: rgba(0, 255, 234, 0.705);
+  margin-left: 20px;
+
+  position: absolute;
+  top: 5rem;
+  right: 40%;
+}
+
+#TextBeschreibung {
+  margin-left: 20px;
+  top: 20rem;
+  right: 1%;
+  position: absolute;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 /*====================MEDIA QUERRIES=============================*/
 @media (max-width: 1720px) {
   .container a > img {
