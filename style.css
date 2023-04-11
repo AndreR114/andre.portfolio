@@ -5,10 +5,7 @@ html {
 }
 
 body {
-    height: 120vh;
-    background-image: linear-gradient(to top left,
-            rgba(255, 136, 0, 0.596),
-            rgba(172, 126, 0, 0.849));
+ 
     font-family: sans-serif;
     margin: 0;
 }
