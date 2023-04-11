@@ -129,10 +129,9 @@ body {
 }
 
 /*====================MEDIA QUERRIES=============================*/
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 768px) {
   .header-banner > img {
-    height: 1000px;
-    width: 1500px;
+    width: auto;
   }
 }
 
