@@ -161,11 +161,12 @@ body {
 /*====================MEDIA QUERRIES=============================*/
 @media only screen and (max-width: 768px) {
   .header-banner > img {
-    width: auto;
+    width: 100%;
+    height: 100%;
   }
 
   #Kopfzeile {
-    top: 6rem;
+    top: 4rem;
     right: 2.5rem;
   }
 
