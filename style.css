@@ -13,6 +13,36 @@ body {
   box-sizing: border-box;
 }
 
+/*======================Button Styles=================================*/
+
+/*language Button styles*/
+
+#langSwitch_english > img {
+  height: 40px;
+}
+
+#langSwitch_deutsch > img {
+  height: 40px;
+}
+
+#langSwitch_english {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#langSwitch_deutsch {
+  border: none;
+  cursor: pointer;
+}
+/*Langugage Button positioning*/
+
+.buttonContainer {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
 /*======================Styling Navigationsbar===========================*/
 
 .navBar {
