@@ -107,7 +107,7 @@ body {
 
 .header-banner > img {
   display: inline-block;
-  height: 1100px;
+  height: 100%;
   width: 100%;
   position: relative;
 }
