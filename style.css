@@ -168,6 +168,8 @@ body {
 }
 
 /*====================MEDIA QUERRIES=============================*/
+
+/*Querry for Startpage*/
 @media only screen and (max-width: 1300px) {
   .header-banner > img {
     width: 100%;
@@ -184,6 +186,14 @@ body {
     top: 170px;
     font-size: 0.8rem;
     
+  }
+}
+
+/*Querry for Project site*/
+@media only screen and (max-width: 1300px) {
+  .Leistung-Box {
+    width: 50%;
+    font-size: 0.8rem;
   }
 }
 
