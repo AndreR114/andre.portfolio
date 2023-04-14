@@ -174,14 +174,16 @@ body {
   }
 
   #Kopfzeile {
-    top: 3rem;
+    top: 2rem;
     right: 25%;
   }
 
   #TextBeschreibung {
     margin-left: 200px;
     margin-right: 200px;
-    top: 180px;
+    top: 170px;
+    font-size: 0.8rem;
+    
   }
 }
 
