@@ -168,20 +168,20 @@ body {
 }
 
 /*====================MEDIA QUERRIES=============================*/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
   .header-banner > img {
     width: 100%;
   }
 
   #Kopfzeile {
-    top: 4rem;
+    top: 3rem;
     right: 25%;
   }
 
   #TextBeschreibung {
     margin-left: 200px;
     margin-right: 200px;
-    top: 200px;
+    top: 180px;
   }
 }
 
