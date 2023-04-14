@@ -158,6 +158,15 @@ body {
   font-size: 2rem;
 }
 
+/*====================Impressum==================================*/
+#impressumh1 {
+  margin-left: 50px;
+}
+
+#impressumText {
+  margin-left: 50px;
+}
+
 /*====================MEDIA QUERRIES=============================*/
 @media only screen and (max-width: 1000px) {
   .header-banner > img {
