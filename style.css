@@ -46,70 +46,145 @@ body {
 /*======================Styling Navigationsbar===========================*/
 
 .navBar {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(78, 74, 74);
-  position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(78, 74, 74);
+    position: relative;
 }
 
-.navBar > a > img {
-  position: absolute;
-  display: inline-block;
-  text-decoration: none;
+.navBar .col-6 {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.navBar > ul > li {
-  display: inline-block;
-  height: 100%;
-  padding: 0 0.4rem 0 0.4rem;
+.navBar .container,
+.navBar .row,
+.navBar .col-6 {
+    height: 100%;
 }
 
-.navBar > ul {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 2rem;
-  font-weight: bold;
-  font-size: 1.2rem;
-  height: 100%;
+
+.navBar .col-6>a>img {
+    float: left;
+
+    text-decoration: none;
 }
 
-.navBar > ul > li > a {
-  display: inline-block;
-  margin-top: 0.9rem;
+.navBar ul>li {
+    display: inline-block;
+    height: 100%;
+    padding: 0 0.4rem 0 0.4rem;
 }
 
-.navBar > ul > li > a:link {
-  color: white;
-  text-decoration: none;
+.navBar ul {
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    float: right;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 100%;
 }
 
-.navBar > ul > li > a:active {
-  color: red;
-  text-decoration: none;
+.navBar ul>li>a {
+    display: inline-block;
+    margin-top: 0.9rem;
 }
 
-.navBar > ul > li > a:visited {
-  color: white;
-  text-decoration: none;
+.navBar ul>li>a:link {
+    color: white;
+    text-decoration: none;
 }
 
-.navBar > ul > li > a:hover {
-  color: red;
-  text-decoration: none;
+.navBar ul>li>a:active {
+    color: red;
+    text-decoration: none;
+}
+
+.navBar ul>li>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar ul>li>a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 .active {
-  background-color: rgb(187, 20, 20);
+    background-color: rgb(187, 20, 20);
+}
+
+/*====================================Mobile Navigation=====================*/
+
+.mobile-nav-button {
+
+    color: #fff;
+    float: right;
+    font-size: 2.5rem;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    top: 5px;
+}
+
+.mobile-nav-button>span {
+    position: absolute;
+    bottom: -4px;
+    left: 5.8px;
+}
+
+.mobile-nav-content>ul>li {
+    display: block;
+    background-color: rgb(78, 74, 74);
+    height: 60px;
+    padding: 0 1rem 1rem;
+}
+
+.dropdown-construct {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.mobile-nav-content {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    display: none;
+}
+
+.dropdown-construct:hover>.mobile-nav-content {
+    display: block;
+    z-index: 2;
+}
+
+.mobile {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
 }
 
 /*=======================Styling Banner==============================*/
 
-.header-banner > img {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  position: relative;
+.header-banner {
+    background: url("web-design-2906159_1920.jpg") no-repeat center center;
+    width: 100%;
+    height: 0;
+    padding-top: 60%;
+    background-size: contain;
+    z-index: -2;
 }
 
 /*=======================Styling Infotext============================*/
