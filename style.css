@@ -254,30 +254,25 @@ body {
 
 /*Querry for Startpage*/
 @media only screen and (max-width: 1300px) {
-  .header-banner > img {
-    width: 100%;
-  }
 
-  #Kopfzeile {
-    top: 2rem;
-    right: 25%;
-  }
 
-  #TextBeschreibung {
-    margin-left: 200px;
-    margin-right: 200px;
-    top: 170px;
-    font-size: 0.8rem;
-    
-  }
+    #Kopfzeile {}
+
+    #TextBeschreibung {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 20px;
+        font-size: 0.8rem;
+
+    }
 }
 
 /*Querry for Project site*/
 @media only screen and (max-width: 1300px) {
-  .Leistung-Box {
-    width: 50%;
-    font-size: 0.8rem;
-  }
+    .Leistung-Box {
+        width: 50%;
+        font-size: 0.8rem;
+    }
 }
 
 
