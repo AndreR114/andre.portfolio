@@ -13,6 +13,14 @@ body {
   box-sizing: border-box;
 }
 
+/*=======================Styling für alle Seiten anwendbar==============*/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /*======================Button Styles=================================*/
 
 /*language Button styles*/
