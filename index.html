@@ -76,21 +76,42 @@
           />
         </a>
       </div>
-
-      <h1 id="Kopfzeile">Mein Portfolio</h1>
-
-     <div id="TextBeschreibung">
-        <p>
-          Hinweis: Hier entsteht mein Portfolio. Im Moment lerne ich
-          Java-Script. Die Basics von HTML und CSS habe ich mir bei dem
-          Lernportal Udemy angeeignet. Der Sinn ist es, meine Lernfortschritte
-          hier zu demonstrieren und auch interaktiv mit euch zu teilen. Mein
-          Ziel ist es über die Zeit, die Seite weiter zu entwickeln und immer
-          weiter zu stylen. Auch kleinere Anwendungen werden hier verlinkt wie
-          z.B. browserGames usw. Am Schluss soll auch diese Seite als Werbung
-          dienen für potienzielle Kunden, wenn ich mein Wissen professeioniell
-          auf dem Markt anbieten möchte.
-        </p>
+    </section>
+         
+          <section class="newsletter-Bereich">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p id="nb-text">
+              Wenn du Interesse an den neuesten Informationen über mein
+              Portfolio möchtest, melde dich für meinen Newsletter an!
+              <span
+                >(Dies ist nur zur Versuchszwecken, deine Email wird nicht
+                gespeichert oder weitergeleitet. Für diese Funktion muss ich
+                noch php lernen und die richtige Validierung für die
+                Datensicherheit. Wahrscheinlich erscheint beim senden ein
+                Error.)</span
+              >
+            </p>
+          </div>
+          <div class="col-2 clearfix">
+            <form id="nb-form" action="index.html" method="post">
+              <label for="nb-email">E-Mail:</label>
+              <input
+                class="email-input"
+                id="nb-email"
+                type="text"
+                name="email"
+                placeholder="Deine E-Mail Adresse"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Bitte gib eine gültige E-Mail Adresse ein"
+              />
+              <button id="btn-typ-0" class="nb-btn" type="submit">
+                Jetzt anmelden!
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 </body>
