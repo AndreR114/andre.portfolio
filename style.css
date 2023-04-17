@@ -207,6 +207,46 @@ body {
     z-index: -2;
 }
 
+/*========================Newsletter Bereich==========================*/
+.newsletter-Bereich {
+  width: 100%;
+  background-color: rgb(78, 74, 74);
+  margin-top: -5px;
+}
+
+#nb-text {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#nb-text > span {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.email-input {
+  width: 60%;
+  height: 35px;
+  border: none;
+  padding: 0.5rem 0.5rem;
+}
+
+#nb-form {
+  float: right;
+  margin-top: 35px;
+  text-align: right;
+  width: 100%;
+}
+
+#btn-typ-0:hover {
+  color: blue;
+  font-weight: bold;
+  background-color: rgb(247, 13, 13);
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
 /*=======================Styling Infotext============================*/
 
 #Kopfzeile {
