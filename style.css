@@ -51,6 +51,15 @@ body {
   right: 30px;
 }
 
+/*allgemeine Submitbutton Styles*/
+
+#btn-typ-0 {
+    padding: 11px;
+    margin-left: 15px;
+    border: none;
+    background-color: rgba(185, 27, 27, 0.877);
+}
+
 /*======================Styling Logo=====================================*/
 
 #logo {
