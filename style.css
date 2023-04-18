@@ -436,7 +436,32 @@ body {
 
 .video-Bereich video {
   width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: block;
 }
+
+/*Videobereich für Video-bereich*/
+
+@media (max-width: 1440px) {
+  .video-Bereich video {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .video-Bereich video {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-Bereich video {
+    width: 80%;
+  }
+}
+
 
 
 /*===========================Meine Projektseite=====================*/
