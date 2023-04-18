@@ -321,6 +321,59 @@ body {
     margin-right: 1rem;
     margin-left: auto;
 }
+
+/*MediaQuerries für BeschreibungBereich*/
+
+@media (max-width: 1366px) {
+  .beschreibung-Boxen {
+    width: 80%;
+  }
+
+  .beschreibung-Boxen2 {
+    width: 83%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Intro-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .beschreibung-Boxen {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .beschreibung-Boxen2 {
+    width: 103%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Intro-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Intro-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #BeschreibungsBereich .row > .col-3:nth-of-type(even) > .beschreibung-Boxen {
+    margin-left: 0;
+  }
+
+  #BeschreibungsBereich .row > .col-3:nth-of-type(odd) > .beschreibung-Boxen {
+    margin-right: 0;
+  }
+}
+
+
 /*===========================Meine Projektseite=====================*/
 
 .container a > img {
