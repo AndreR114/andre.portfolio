@@ -411,8 +411,8 @@ body {
     margin-right: 0;
   }
   
-  .beschreibung-Boxen2 {
-    margin-right:0;
+ .beschreibung-Boxen2 {
+    width: 100%;
   }
 }
 
