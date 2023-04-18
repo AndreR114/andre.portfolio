@@ -256,6 +256,45 @@ body {
   width: 100%;
 }
 
+/*MediaQuerry für den NewsletterBereich*/
+@media (max-width: 1366px) {
+  #nb-text {
+    font-size: 1rem;
+  }
+
+  #nb-text > span {
+    font-size: 1rem;
+  }
+
+  #btn-typ-0 {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  #nb-text {
+    font-size: 0.6rem;
+  }
+
+  #nb-text > span {
+    font-size: 0.6rem;
+  }
+
+  .newsletter-Bereich {
+    text-align: center;
+  }
+
+  #nb-form {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nb-email {
+    margin-right: 54.5px;
+    margin-top: -10px;
+  }
+}
+
 
 
 /*========================Styling des Beschreibungsabschnittes============*/
