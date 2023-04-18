@@ -428,6 +428,16 @@ body {
   }
 }
 
+/*============================VideoBereich===========================*/
+
+.video-Bereich {
+  background-color: rgb(78, 74, 74);
+}
+
+.video-Bereich video {
+  width: 35%;
+}
+
 
 /*===========================Meine Projektseite=====================*/
 
