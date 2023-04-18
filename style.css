@@ -394,11 +394,23 @@ body {
   .Intro-container {
     width: 90%;
   }
+  .beschreibung-Boxen2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #BeschreibungsBereich .row > .col-3:nth-of-type(even) > .beschreibung-Boxen {
+    margin-left: 0;
+  }
+  #BeschreibungsBereich .row > .col-3:nth-of-type(odd) > .beschreibung-Boxen {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .Intro-container {
-    width: 90%
+    width: 100%;
   }
 }
 
@@ -410,8 +422,8 @@ body {
   #BeschreibungsBereich .row > .col-3:nth-of-type(odd) > .beschreibung-Boxen {
     margin-right: 0;
   }
-  
- .beschreibung-Boxen2 {
+
+  .beschreibung-Boxen2 {
     width: 100%;
   }
 }
