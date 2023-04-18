@@ -412,7 +412,7 @@ body {
   }
   
   .beschreibung-Boxen2 {
-    width: 100%;
+    margin-right:0;
   }
 }
 
