@@ -410,6 +410,10 @@ body {
   #BeschreibungsBereich .row > .col-3:nth-of-type(odd) > .beschreibung-Boxen {
     margin-right: 0;
   }
+  
+  .beschreibung-Boxen2 {
+    width: 100%;
+  }
 }
 
 
