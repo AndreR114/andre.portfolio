@@ -531,6 +531,7 @@ body {
   background-color: rgb(78, 74, 74);
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0 3px 5px;
 }
 
 .icon-image {
@@ -554,7 +555,21 @@ body {
   }
 }
 
+/*==============================Fusszeile==========================*/
 
+.Fusszeile {
+  background-color: rgb(78, 74, 74);
+  color: white;
+}
+
+#kontakt {
+  float: right;
+  margin-right: 100px;
+}
+
+#copyright {
+  margin-left: 100px;
+}
 
 /*===========================Meine Projektseite=====================*/
 
