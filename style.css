@@ -51,6 +51,10 @@ body {
   right: 30px;
 }
 
+.buttonContainer img {
+    border-radius: 100%;
+}
+
 /*allgemeine Submitbutton Styles*/
 
 .btn-typ-0 {
