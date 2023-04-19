@@ -462,6 +462,98 @@ body {
   }
 }
 
+/*===========================Lernelement============================*/
+.Lernelemente {
+  background-color: #f1f5f0;
+}
+
+.Sprachbeschreibung {
+  text-align: center;
+  width: 80%;
+}
+
+.Sprachbeschreibung > h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.Lernelemente .row:nth-of-type(2) .col-2:first-of-type .Sprachbeschreibung {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.Lernelemente .row:nth-of-type(2) > .col-2:nth-of-type(2) .Sprachbeschreibung {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Lernelemente .row:nth-of-type(2) .col-2:last-of-type .Sprachbeschreibung {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+@keyframes iconAnim {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  11.11% {
+    transform: rotateZ(0deg);
+  }
+  22.22% {
+    transform: rotateZ(90deg);
+  }
+  33.33% {
+    transform: rotateZ(90deg);
+  }
+  44.44% {
+    transform: rotateZ(180deg);
+  }
+  55.55% {
+    transform: rotateZ(180deg);
+  }
+  66.66% {
+    transform: rotateZ(270deg);
+  }
+  77.77% {
+    transform: rotateZ(270deg);
+  }
+  88.88% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.icons {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(78, 74, 74);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  animation: iconAnim 5s ease-in-out infinite alternate;
+}
+
+/*MediaQuerry für Lernelementbereich*/
+
+@media (max-width: 768px) {
+  .Lernelemente .row:nth-of-type(2) .col-2:first-of-type .Sprachbeschreibung {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Lernelemente .row:nth-of-type(2) .col-2:last-of-type .Sprachbeschreibung {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 
 
 /*===========================Meine Projektseite=====================*/
