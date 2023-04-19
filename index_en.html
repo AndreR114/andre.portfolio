@@ -53,38 +53,202 @@
 
     </nav>
 
-    <section class="header-banner">
-   
+   <header class="header-banner">
 
-      <div class="buttonContainer">
-        <a href="index_en.html" id="langSwitch_english">
-          <img
-            src="png-transparent-united-kingdom-united-states-khalil-gibran-school-rabat-computer-icons-icon-design-united-kingdom-flag-s-english-flag-logo-thumbnail.png"
-            alt="English"
-          />
-        </a>
-        <a href="index.html" id="langSwitch_deutsch">
-          <img
-            src="png-transparent-flag-of-germany-national-flag-german-language-flag-miscellaneous-flag-sphere-thumbnail.png"
-            alt="Deutsch"
-          />
-        </a>
-      </div>
 
-      <h1 id="Kopfzeile">My Portfolio</h1>
+        <div class="buttonContainer">
+            <a href="index_en.html" id="langSwitch_english">
+                <img src="png-transparent-united-kingdom-united-states-khalil-gibran-school-rabat-computer-icons-icon-design-united-kingdom-flag-s-english-flag-logo-thumbnail.png"
+                    alt="English" />
+            </a>
+            <a href="index.html" id="langSwitch_deutsch">
+                <img src="png-transparent-flag-of-germany-national-flag-german-language-flag-miscellaneous-flag-sphere-thumbnail.png"
+                    alt="Deutsch" />
+            </a>
+        </div>
 
-     <div id="TextBeschreibung">
-        <p>
-          Note: This will be my portfolio. At the moment i am learning Java
-          Script. I learned the basics of CSS and HTML with the help of the
-          learning protal Udemy. The prupose is it to demonstrate my progress
-          and bulid in new features. Also i want to share it with you. My goal
-          is it to develope the webpake over the time and make it more stylish
-          over time. Also little projects will be linked here. At the end i want
-          to use this page as a example, when i try to applie for jobs and
-          offery my expertiese to the market.
-        </p>
-      </div>
+
+
+    </header>
+    <section class="newsletter-Bereich">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p id="nb-text">
+                        Wenn du Interesse an den neuesten Informationen über mein
+                        Portfolio möchtest, melde dich für meinen Newsletter an!
+                        <span>(Nur zum Test, deine Email wird nicht
+                            gespeichert oder weitergeleitet. Benötige noch das Wissen um E-mails
+                            zu verarbeiten. Error beim Senden.)</span>
+                    </p>
+                </div>
+                <div class="col-2 clearfix">
+                    <form id="nb-form" action="index.html" method="post">
+                        <label for="nb-email">E-Mail:</label>
+                        <input class="email-input" id="nb-email" type="text" name="email"
+                            placeholder="Deine E-Mail Adresse" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                            title="Bitte gib eine gültige E-Mail Adresse ein" />
+                        <button class="btn-typ-0" class="nb-btn" type="submit">
+                            Jetzt anmelden!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="BeschreibungsBereich">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="Intro-container">
+                        <h1>Mein Portfolio</h1>
+                        <p>Hier entsteht mein Portfolio. Im Moment betreibe ich es hobbymässig. Da es mir aber
+                            sehr viel Spass macht, versuche ich ständig mein Wissen zu erweitern um vom Hobby zum Beruf
+                            zu gelangen. Hier möchte ich mein Wissen umsetzen und demonstrieren für interessierte
+                            Personen.
+                            Vielen Dank das Du meine Seite besuchst.
+                        </p>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <article class="beschreibung-Boxen">
+                        <h2>Meine Projekte</h2>
+                        <p>Hier findest du meine Projekte. Hier sollen verschiedene Sachen verlinkt werde.
+                            Wie z. B. Browser-Games, andere Webseiten in denen ich neue Styles probiere oder
+                            einfach erlente Effeckte demonstriere.
+                        </p>
+                        <a class="btn-typ-0" href="meineProjekt.html">Ansehen</a>
+                    </article>
+                </div>
+                <div class="col-3">
+                    <article class="beschreibung-Boxen">
+                        <h2>Über Mich</h2>
+                        <p>Hier findest du eineige Informationen die ich Teile.
+                            Natürlich keine Sensiblen Deteils. Für Mehr Informationen
+                            Kann man mich via Email Kontaktieren.
+                            <br>
+                            <br>
+                        </p>
+                        <a class="btn-typ-0" href="uebermich.html">Ansehen</a>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <article class="beschreibung-Boxen2">
+                        <h2>Impressum</h2>
+                        <p>Hier geht es zum Impressum. Bis jetzt steht noch nichts wichtiges drin.
+                            Vielleicht wird es eines Tages ersetzt.
+                        </p>
+                        <a class="btn-typ-0" href="impressum.html">Ansehen</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="video-Bereich">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="Intro-container">
+                        <h1>Besuche mich auf TikTok</h1>
+                        <p>
+                            Auf TikTok poste ich verschiedene Inhalte, nicht nur zum Thema
+                            Programmieren.
+                        </p>
+                    </header>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <video src="Folge mir auf TikTok.mp4" controls autoplay muted loop>
+                        <p>Das Video kann leider nicht wiedergegeben werden.</p>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Lernelemente">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="Intro-container">
+                        <h1>Sprachen</h1>
+                        <p>
+                            Unten stehend werden die Elemente kurz erläutert die es benötigt
+                            um moderne Webseiten zu erstellen und zu designen. Es gibt
+                            natürlich auch ChatGPT, aber ich versuche im Moment darauf zu
+                            verzichten da es mir beim lernen nicht wirklich hilft. Bei
+                            kniffligen Fragen kann es aber schon hilfreich sein.
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <article class="Sprachbeschreibung">
+                    <div class="icons">
+                        <img class="icon-image" src="html.PNG" alt="html icon" />
+                    </div>
+                    <h1>HTML</h1>
+                    <p>
+                        HTML bedeutet Hypertext Markup Language (deutsch:
+                        Hypertext-Auszeichnungssprache) und dient dazu, textbasierte
+                        Inhalte eines Webdokumentes zu strukturieren. Dabei werden nicht
+                        nur Inhalte darin ausgezeichnet, sondern auch Meta-Informationen,
+                        die diese Inhalte beschreiben.
+                    </p>
+                </article>
+            </div>
+            <div class="col-2">
+                <article class="Sprachbeschreibung">
+                    <div class="icons">
+                        <img class="icon-image" src="css.PNG" alt="css icon" />
+                    </div>
+                    <h1>CSS</h1>
+                    <p>
+                        CSS ist die Abkürzung für “Cascading Style Sheets”. CSS ist eine
+                        Computersprache um Websites aufzubauen und zu strukturieren (HTML
+                        oder XML). Diese Sprache enthält Code-Elemente und setzt sich aus
+                        diesen “Cascading Style Sheets“ zusammen, die auch CSS-Dateien (.
+                        css) genannt werden.
+                    </p>
+                </article>
+            </div>
+            <div class="col-2">
+                <article class="Sprachbeschreibung">
+                    <div class="icons">
+                        <img class="icon-image" src="js.PNG" alt="java script icon" />
+                    </div>
+                    <h1>Java-Script</h1>
+                    <p>
+                        Bei JavaScript handelt es sich um eine Skriptsprache, die auf der
+                        Seite des Clients arbeitet. Mit Hilfe von JavaScript lässt sich
+                        die Funktionalität von Websites erhöhen, indem Inhalte verändert
+                        oder generiert werden. JavaScript wird eingesetzt, um CSS und HTML
+                        zu ergänzen.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="Fusszeile">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span id="copyright">Mein Portfolio made by Andre R.(2023)</span>
+                    <span id="kontakt">Kontakt: andrer11444@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
