@@ -437,6 +437,7 @@ body {
 
 .video-Bereich {
   background-color: rgb(78, 74, 74);
+  width: 100%;
 }
 
 .video-Bereich video {
