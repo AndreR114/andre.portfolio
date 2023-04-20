@@ -47,8 +47,8 @@ body {
 
 .buttonContainer {
   position: absolute;
-  top: 60px;
-  right: 30px;
+  top: 5px;
+  right: 8px;
 }
 
 .buttonContainer img {
@@ -119,7 +119,7 @@ body {
 
 .navBar ul {
     margin: 0;
-    margin-right: 20px;
+    right: 8rem;
     padding: 0;
     float: right;
     font-weight: bold;
