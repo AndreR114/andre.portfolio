@@ -632,6 +632,7 @@ body {
   margin-right: auto;
   justify-content: center;
   background-color: rgba(0, 0, 255, 0.151);
+  flex-wrap: wrap;
 }
 
 .flex-container * {
