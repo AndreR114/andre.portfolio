@@ -626,55 +626,47 @@ body {
 
 .flex-container {
   display: flex;
-  margin-top: 250px;
+  margin-top: 400px;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-
   justify-content: center;
+  background-color: rgba(0, 0, 255, 0.151);
 }
 
 .flex-container * {
   margin: 1rem;
 }
 
-/*====================Impressum==================================*/
-#impressumh1 {
-  margin-left: 50px;
+.Project-Box {
+  text-align: center;
 }
 
-#impressumText {
-  margin-left: 50px;
+.Project-Box > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-/*=====================Grid System===============================*/
+/*Projectseite Button*/
 
-.row::after {
-  content: "";
-  clear: both;
-  display: block;
+.project-btn {
+  background-color: #0099ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-[class*="col-"] {
-  float: left;
-  min-height: 1px;
-  padding: 0.8rem;
-}
-
-.col-1 {
-  width: 16.666%;
-}
-.col-2 {
-  width: 33.333%;
-}
-.col-3 {
-  width: 50%;
-}
-.col-4 {
-  width: 66.666%;
-}
-.col-6 {
-  width: 100%;
+.project-btn:hover {
+  background-color: #fff;
+  color: #0099ff;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*====================MEDIA QUERRIES=============================*/
