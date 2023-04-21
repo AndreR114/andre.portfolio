@@ -617,29 +617,25 @@ body {
   }
 }
 
+
+
 /*===========================Meine Projektseite=====================*/
-
-.container a > img {
-  height: 200px;
-  width: 200px;
+#projektSeite {
+  background-color: rgba(49, 44, 44, 0.568);
 }
 
-.container > h2 {
-  margin-top: 20px;
+.flex-container {
+  display: flex;
+  margin-top: 400px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
 }
 
-.Leistungen-Bereich {
-  padding-top: 1rem;
-}
-
-.Leistung-Box {
-  background-color: gray;
-  text-align: center;
-  color: black;
-  padding: 2rem 2rem 2rem;
-  width: 20%;
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
+.flex-container * {
+  margin: 1rem;
 }
 
 /*====================Impressum==================================*/
