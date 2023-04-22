@@ -677,6 +677,13 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+/*=====================Über mich================================*/
+
+#ueber-mich {
+    background-image: url(web-design-2906159_1920.jpg);
+}
+
+
 /*=====================Grid System===============================*/
 
 .row::after {
