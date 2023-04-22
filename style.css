@@ -682,7 +682,6 @@ body {
 #ueber-mich {
     background-image: url(web-design-2906159_1920.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .flexArtikel {
@@ -728,6 +727,16 @@ body {
         transform: translateY(0) rotateX(0deg) rotateZ(0deg);
         opacity: 1;
     }
+}
+
+@media(max-width:768px){
+ #ueber-mich {
+    background-image: url(web-design-2906159_1920.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+  
 }
 
 
