@@ -681,6 +681,8 @@ body {
 
 #ueber-mich {
     background-image: url(web-design-2906159_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flexArtikel {
