@@ -729,6 +729,24 @@ body {
     }
 }
 
+
+
+@media(max-width:1024px){
+ #ueber-mich {
+    background-image: url(web-design-2906159_1920.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+  
+  .flexArtikel {
+ 
+    margin-top: 20px;
+  
+}
+
+}
+
 @media(max-width:768px){
  #ueber-mich {
     background-image: url(web-design-2906159_1920.jpg);
