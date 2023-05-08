@@ -591,13 +591,11 @@ body {
 
 @media (max-width: 768px) {
   #kontakt {
-    margin-left: auto;
-    margin-right: auto;
+
   }
 
   #copyright {
-    margin-left: auto;
-    margin-right: auto;
+
   }
 }
 
