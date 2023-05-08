@@ -216,15 +216,7 @@ body {
         display: block;
     }
   
-    #logo {
-    height: 60px;
-    width: 70px;
-    display: inline-block;
-    position: absolute;
-    padding: 2px;
-    top: -10px;
-    left: -5px;
-  }
+
 }
 
 /*=======================Styling Banner==============================*/
