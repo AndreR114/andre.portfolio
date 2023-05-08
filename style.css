@@ -174,8 +174,8 @@ body {
 
 .mobile-nav-button>span {
     position: absolute;
-    bottom: -4px;
-    left: 5.8px;
+    bottom: -2px;
+    left: 5px;
 }
 
 .mobile-nav-content>ul>li {
