@@ -175,6 +175,7 @@ body {
 .mobile-nav-button>span {
     position: absolute;
     bottom: -8px;
+    left:-1.5px;
     
 }
 
