@@ -749,6 +749,22 @@ body {
    background-size: cover;
    
 }
+  #überschrift {
+    
+    font-size: 2rem;
+   
+
+
+}
+  
+  #übermichText {
+  
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1rem;
+
+}
+
   
   .flexArtikel {
  
