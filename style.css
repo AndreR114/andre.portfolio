@@ -216,6 +216,15 @@ body {
         display: block;
     }
   
+  #logo {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  padding: 20px;
+  top: -30px;
+  left: -22px;
+}
 
 }
 
